@@ -22,3 +22,28 @@ Use Tomcat’s built-in `ExpiresFilter` to force the browser to always fetch fre
 ✔ Requires only `web.xml`  
 ✔ No need for versioned URLs  
 ✔ `<meta>` tags not required  
+
+## 📦 What This Configuration Does
+
+- 🚫 Forces the browser to **never cache any file**
+- 🔄 Ensures **HTML, JS, CSS, images** are always fetched from the server
+- 🧹 Disables caching **even without `<meta>` tags**
+- 🆕 Guarantees that the **latest version** of every file is delivered
+- 🛠 Prevents outdated content from appearing after deployment
+
+---
+
+## 🚀 How to Test After Deployment
+
+### 🔍 Chrome DevTools  
+1. Press **F12**
+2. Open the **Network** tab  
+3. Check **Disable cache**
+4. Refresh the page (**F5**)
+
+If these headers appear, caching is **fully disabled** 🎉
+
+```yaml
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
