@@ -1,6 +1,7 @@
 # 🚫 Tomcat Static Cache OFF Guide
 **Disable all browser caching for HTML, CSS, JS, and images using only `web.xml`.**
 
+---
 
 ## 📌 Overview
 If your HTML or static files (JS, CSS, images) aren’t updating after deployment, the browser is likely serving old cached content.  
