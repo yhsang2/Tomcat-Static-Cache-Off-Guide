@@ -16,8 +16,11 @@ With just a web.xml configuration (no Java code needed), you can disable caching
 🔥 What This web.xml Configuration Does
 
 ✔ Forces the browser to re-fetch every file from the server
+
 ✔ Blocks caching entirely — even without <meta> cache tags
+
 ✔ Works with zero Java code (uses Tomcat’s native filter)
+
 ✔ Always delivers the latest files — no need to append version strings to URLs
 
 🚀 How to Test After Deployment
