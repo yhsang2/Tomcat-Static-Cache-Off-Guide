@@ -13,15 +13,14 @@ Even after updating static files, the website still shows old content because th
 
 ## ✅ Solution  
 Use Tomcat’s built-in `ExpiresFilter` to force the browser to always fetch fresh files from the server.
-
 ✔ Works for HTML, JS, CSS, images  
 ✔ Requires **no Java code**  
 ✔ Requires only `web.xml`  
 ✔ No need for versioned URLs  
 ✔ `<meta>` tags not required  
 
-## 📦 What This Configuration Does
 
+## 📦 What This Configuration Does
 - 🚫 Forces the browser to **never cache any file**
 - 🔄 Ensures **HTML, JS, CSS, images** are always fetched from the server
 - 🧹 Disables caching **even without `<meta>` tags**
@@ -30,8 +29,7 @@ Use Tomcat’s built-in `ExpiresFilter` to force the browser to always fetch fre
 
 
 ## 🚀 How to Test After Deployment
-
-### 🔍 Chrome DevTools  
+🔍 Chrome DevTools  
 1. Press **F12**
 2. Open the **Network** tab  
 3. Check **Disable cache**
