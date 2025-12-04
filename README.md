@@ -10,7 +10,6 @@ This guide shows you how to **completely disable caching in Tomcat** using the b
 ## 🚨 Problem  
 Even after updating static files, the website still shows old content because the user’s browser retains cached files.
 
----
 
 ## ✅ Solution  
 Use Tomcat’s built-in `ExpiresFilter` to force the browser to always fetch fresh files from the server.
@@ -29,7 +28,6 @@ Use Tomcat’s built-in `ExpiresFilter` to force the browser to always fetch fre
 - 🆕 Guarantees that the **latest version** of every file is delivered
 - 🛠 Prevents outdated content from appearing after deployment
 
----
 
 ## 🚀 How to Test After Deployment
 
