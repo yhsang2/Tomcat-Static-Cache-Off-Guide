@@ -42,3 +42,9 @@ If these headers appear, caching is **fully disabled** 🎉
 Cache-Control: no-cache, no-store, must-revalidate
 Pragma: no-cache
 Expires: 0
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. @yhsang2
