@@ -42,6 +42,7 @@ If these headers appear, caching is **fully disabled** 🎉
 Cache-Control: no-cache, no-store, must-revalidate
 Pragma: no-cache
 Expires: 0
+```
 
 ---
 
